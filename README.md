@@ -2,9 +2,10 @@
 
 ## Collection of script used for data analysis and visualization
 
-### Like a lab book for the scripts
+### Like a lab book for the scripts I used
 =======================================================================================================
 
-This folder includes python, shell and R scripts used during different analysis of my projects in the lab
+This folder includes python, shell and R scripts used during different bioinformatic analysis in the lab
 
-The repo is divided based on the different projects I am working on in the lab
+The repo is divided based on the different projects I am working on
+
