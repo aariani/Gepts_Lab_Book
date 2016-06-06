@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+### script for cleaning plink output
+from __future__ import print_function
+import sys
+
+try:
+	f=sys.argv[1]
+	for line in open(f):
+		line=line.strip().split(' ')
+		print('\t'.join([i for i in line if i!='']), file=open(f+'.txt', 'a'))
+except:
+	print('\t\tScript for converting plink output in TAB file\n\t\tUSAGE: cleanplink FILENAME')
+

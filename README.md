@@ -7,5 +7,5 @@
 
 This folder includes python, shell and R scripts used during different bioinformatic analysis in the lab
 
-The repo is divided based on the different projects I am working on
+The repo is divided based on the different pipelines, programs or R packages used for the analysis
 
