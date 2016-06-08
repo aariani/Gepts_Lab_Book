@@ -2,7 +2,7 @@
 
 ##### second part of tassel script
 ##### set TASSEL variable
-TASSEL=~/Downloads/tassel4_mod/tassel4-src/run_pipeline.pl
+TASSEL=<PATH_TO_MODIFIED_TASSEL4>
 
 #### convert bam files in TOPM
 

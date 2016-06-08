@@ -2,8 +2,8 @@
 
 ### Script for final SNP imputation using the TASSEL GBS algorithm
 ##### set variables
-TASSEL4=~/Downloads/tassel4_mod/tassel4-src/run_pipeline.pl
-TASSEL5=~/TASSEL5/run_pipeline.pl
+TASSEL4=<PATH_TO_MODIFIED_TASSEL4>
+TASSEL5=<PATH_TO_TASSEL5>
 
 ### Repeat the SNP calling step for relaxing some parameter
 mkdir hapmap

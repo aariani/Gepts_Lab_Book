@@ -5,7 +5,7 @@
 #####
 ##### first step is to export the tassel pipeline path, so you don't have to write all the path everytime
 
-TASSEL=~/Downloads/tassel4_mod/tassel4-src/run_pipeline.pl
+TASSEL=<PATH_TO_MODIFIED_TASSEL4>
 echo $PATH
 
 mkdir tagCounts ####out for the first demultiplexing step
