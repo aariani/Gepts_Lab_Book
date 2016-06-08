@@ -10,6 +10,6 @@ For simplicity I usually divide the TASSEL-GBS pipeline in 4 Step:
 
 3.	**Part2**: SNP calling final part using `tassel_gbs_part2.sh`
 
-4.	**Imputation**: Imputation part
+4.	**Imputation**: Imputation part with `impute.sh`
 
  
