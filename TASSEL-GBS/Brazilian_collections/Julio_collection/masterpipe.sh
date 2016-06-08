@@ -14,3 +14,5 @@
 ### Part2: Create topm and TBT files for subsequent SNPs calling.
 ### It should produce a hapmap file with the filtered SNPs by chromosome. The hapmap files could be concatenated and then converter to VCFtools as well
 ./tassel_gbs_part2.sh 
+
+./snpCall_Impute.sh
