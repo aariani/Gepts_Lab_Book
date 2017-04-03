@@ -6,6 +6,7 @@
 ### 2) Align the reads to reference genome
 ### 3) Filter and sort the reads
 ### The bam files should be in the format SampleID_sort.bam
+### This is the script for analyzing a germplasm collection.
 
 NGSEP=~/Downloads/NGSEP/NGSToolsApp_2.1.5.jar
 REF=~/pvulgaris/assembly/bwa_index/Pvulgaris_218.fa
@@ -14,6 +15,7 @@ ALN=aln ## Aligned with BWA MEM. The reads are in the format SampleID_sort.bam
 
 ### Call SNPs for each alignment file in the folder
 ### This part will create a bunch of vcf files in the current directory with the name like NGSEP_SAMPLEID.vcf
+### Do not use any separator in your file name
 for i in $ALN/*sort.bam
 do
 	newID=$(echo $i|cut -f 2 -d '/'|cut -f 1 -d '_')
