@@ -7,7 +7,7 @@ import glob
 from subprocess import call
 
 parser=argparse.ArgumentParser(prog='SNPs_calling',
-                               description='Call SNPs on biparental populations with NGSEP')
+                               description='Call SNPs on germplasm collection with NGSEP')
 parser.add_argument('-i', '--input', dest='samfiles',
                     help='The folder with your alignment files')
 parser.add_argument('--NGSEP', dest='ngsep',
@@ -25,8 +25,6 @@ if 'None' in str(arg):
 samfiles=arg.samfiles.split('/')[0]
 ngsep=arg.ngsep
 ref=arg.ref
-p1=arg.p1
-p2=arg.p2
 
 # first call
 all_aln = glob.glob('%s/*bam' % samfiles)
